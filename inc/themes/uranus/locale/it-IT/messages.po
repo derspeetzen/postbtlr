@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Uranus Skin\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 
+msgid "Missing some of required data."
+msgstr "Missing some of required data."
+
+#: 
+msgid "Email is not valid."
+msgstr "Email is not valid."
+
+#: 
+msgid "Invalid token"
+msgstr "Invalid token"
+
+#: 
+msgid "Account is not active"
+msgstr "Account is not active"
+
+#: 
+msgid "Password must be at least 6 character length!"
+msgstr "Password must be at least 6 character length!"
+
+#: 
+msgid "Password confirmation didn't match!"
+msgstr "Password confirmation didn't match!"
+
+#: 
+msgid "All fields are required!"
+msgstr "All fields are required!"
+
+#: 
+msgid "Couldn't send recovery email. Please try again later."
+msgstr "Couldn't send recovery email. Please try again later."
+
+#: 
+msgid "We couldn't find your account"
+msgstr "We couldn't find your account"
+
+#: 
+msgid "Please include the email address."
+msgstr "Please include the email address."
+
+#: 
+msgid "Please include a valid email address."
+msgstr "Please include a valid email address."
+
+#: 
+msgid "Email belongs to an account already."
+msgstr "Email belongs to an account already."
+
+#: 
+msgid "Sign in"
+msgstr "Sign in"
+
+#: 
+msgid "All fields are required"
+msgstr "All fields are required"
+
+#: 
+msgid "Email is not valid!"
+msgstr "Email is not valid!"
+
+#: 
+msgid "Email is not available!"
+msgstr "Email is not available!"
+
+#: 
+msgid "Please verify the reCaptcha."
+msgstr "Please verify the reCaptcha."
+
+#: 
+msgid "Missing or invalid secret key for the reCaptcha."
+msgstr "Missing or invalid secret key for the reCaptcha."
+
+#: 
+msgid "Recaptcha is timedout or duplicate."
+msgstr "Recaptcha is timedout or duplicate."
+
+#: 
+msgid "Recaptcha error: "
+msgstr "Recaptcha error: "
+
+#: 
+msgid "Couldn't verify the recaptcha"
+msgstr "Couldn't verify the recaptcha"
+
+#: 
+msgid "Save time managing your Instagram accounts"
+msgstr "Save time managing your Instagram accounts"
+
+#: 
+msgid "A smarter way to auto post on Instagram"
+msgstr "A smarter way to auto post on Instagram"
+
+#: 
+msgid "Get Now"
+msgstr "Get Now"
+
+#: 
+msgid "Demo Version"
+msgstr "Demo Version"
+
+#: 
+msgid "Manage Your Accounts"
+msgstr "Manage Your Accounts"
+
+#: 
+msgid "The following features to help you save time"
+msgstr "The following features to help you save time"
+
+#: 
+msgid "Get Started"
+msgstr "Get Started"
+
+#: 
+msgid "Photo, Story, Video & Album"
+msgstr "Photo, Story, Video & Album"
+
+#: 
+msgid "Automatically post all content"
+msgstr "Automatically post all content"
+
+#: 
+msgid "Multi Instagram Accounts"
+msgstr "Multi Instagram Accounts"
+
+#: 
+msgid "Post to all of your Instagram accounts easily"
+msgstr "Post to all of your Instagram accounts easily"
+
+#: 
+msgid "Schedule Posts"
+msgstr "Schedule Posts"
+
+#: 
+msgid "You don't need to worry about managment"
+msgstr "You don't need to worry about managment"
+
+#: 
+msgid "Make the difference."
+msgstr "Make the difference."
+
+#: 
+msgid "Here are the features for you"
+msgstr "Here are the features for you"
+
+#: 
+msgid "Unique Design"
+msgstr "Unique Design"
+
+#: 
+msgid "Secure Password hash"
+msgstr "Secure Password hash"
+
+#: 
+msgid "Multi Accounts"
+msgstr "Multi Accounts"
+
+#: 
+msgid "Mobile Responsive"
+msgstr "Mobile Responsive"
+
+#: 
+msgid "Auto Post"
+msgstr "Auto Post"
+
+#: 
+msgid "Payment Gateways"
+msgstr "Payment Gateways"
+
+#: 
+msgid "Emoji Compatibility"
+msgstr "Emoji Compatibility"
+
+#: 
+msgid "Completed"
+msgstr "Completed"
+
+#: 
+msgid "Instagram Scheduler"
+msgstr "Instagram Scheduler"
+
+#: 
+msgid "Schedule your posts at a future date to save time"
+msgstr "Schedule your posts at a future date to save time"
+
+#: 
+msgid "There's no need to spend all day on your account when you can use a tool that automatically post on Instagram."
+msgstr "There's no need to spend all day on your account when you can use a tool that automatically post on Instagram."
+
+#: 
+msgid "%s has additional modules to automate some process."
+msgstr "%s has additional modules to automate some process."
+
+#: 
+msgid "Auto Follow"
+msgstr "Auto Follow"
+
+#: 
+msgid "Auto Unfollow"
+msgstr "Auto Unfollow"
+
+#: 
+msgid "Auto Like"
+msgstr "Auto Like"
+
+#: 
+msgid "Auto Comment"
+msgstr "Auto Comment"
+
+#: 
+msgid "Auto Direct Message"
+msgstr "Auto Direct Message"
+
+#: 
+msgid "Auto Repost"
+msgstr "Auto Repost"
+
+#: 
+msgid "Direct Message"
+msgstr "Direct Message"
+
+#: 
+msgid "Don't worry about managing accounts."
+msgstr "Don't worry about managing accounts."
+
+#: 
+msgid "Real-time posting may be the best way to use it, but <br> not everyone has the time to update in real time"
+msgstr "Real-time posting may be the best way to use it, but <br> not everyone has the time to update in real time"
+
+#: 
+msgid "Login"
+msgstr "Login"
+
+#: 
+msgid "Sign in to your account"
+msgstr "Sign in to your account"
+
+#: 
+msgid "Login with Facebook"
+msgstr "Login with Facebook"
+
+#: 
+msgid "Login credentials didn't match!"
+msgstr "Login credentials didn't match!"
+
+#: 
+msgid "E-mail adress"
+msgstr "E-mail adress"
+
+#: 
+msgid "Password"
+msgstr "Password"
+
+#: 
+msgid "Remember me"
+msgstr "Remember me"
+
+#: 
+msgid "Forgot Password?"
+msgstr "Forgot Password?"
+
+#: 
+msgid "Need an account?"
+msgstr "Need an account?"
+
+#: 
+msgid "Sign up"
+msgstr "Sign up"
+
+#: 
+msgid "Password Reset"
+msgstr "Password Reset"
+
+#: 
+msgid "New password"
+msgstr "New password"
+
+#: 
+msgid "Confirm password"
+msgstr "Confirm password"
+
+#: 
+msgid "Reset Password"
+msgstr "Reset Password"
+
+#: 
+msgid "Success!"
+msgstr "Success!"
+
+#: 
+msgid "You've successfully reset your password!"
+msgstr "You've successfully reset your password!"
+
+#: 
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#: 
+msgid "Password Recovery"
+msgstr "Password Recovery"
+
+#: 
+msgid "Your e-mail adress"
+msgstr "Your e-mail adress"
+
+#: 
+msgid "Submit"
+msgstr "Submit"
+
+#: 
+msgid "Enter your registration email address to receive password reset instructions."
+msgstr "Enter your registration email address to receive password reset instructions."
+
+#: 
+msgid "Email Sent!"
+msgstr "Email Sent!"
+
+#: 
+msgid "Password reset instruction sent to your email adress."
+msgstr "Password reset instruction sent to your email adress."
+
+#: 
+msgid "Copyright %s."
+msgstr "Copyright %s."
+
+#: 
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+#: 
+msgid "Terms of Services"
+msgstr "Terms of Services"
+
+#: 
+msgid "ABOUT"
+msgstr "ABOUT"
+
+#: 
+msgid "FEATURES"
+msgstr "FEATURES"
+
+#: 
+msgid "PRICES"
+msgstr "PRICES"
+
+#: 
+msgid "Go to Account"
+msgstr "Go to Account"
+
+#: 
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: 
+msgid "SIGN UP"
+msgstr "SIGN UP"
+
+#: 
+msgid "Pricing"
+msgstr "Pricing"
+
+#: 
+msgid "Pricing designed to fit your business"
+msgstr "Pricing designed to fit your business"
+
+#: 
+msgid "Most Popular"
+msgstr "Most Popular"
+
+#: 
+msgid "Save %s when paid annualy"
+msgstr "Save %s when paid annualy"
+
+#: 
+msgid "mon"
+msgstr "mon"
+
+#: 
+msgid "Only 1 account"
+msgid_plural "Up to %s accounts"
+msgstr[0] "Only 1 account"
+msgstr[1] "Up to %s accounts"
+
+#: 
+msgid "Unlimited accounts"
+msgstr "Unlimited accounts"
+
+#: 
+msgid "Zero accounts"
+msgstr "Zero accounts"
+
+#: 
+msgid "Post Types"
+msgstr "Post Types"
+
+#: 
+msgid "Photo"
+msgstr "Photo"
+
+#: 
+msgid "Video"
+msgstr "Video"
+
+#: 
+msgid "Story"
+msgstr "Story"
+
+#: 
+msgid "Photo+Video"
+msgstr "Photo+Video"
+
+#: 
+msgid "Photo only"
+msgstr "Photo only"
+
+#: 
+msgid "Video only"
+msgstr "Video only"
+
+#: 
+msgid "Album"
+msgstr "Album"
+
+#: 
+msgid "Cloud Import"
+msgstr "Cloud Import"
+
+#: 
+msgid "Not available"
+msgstr "Not available"
+
+#: 
+msgid "Modules"
+msgstr "Modules"
+
+#: 
+msgid "Spintax Support"
+msgstr "Spintax Support"
+
+#: 
+msgid "Storage"
+msgstr "Storage"
+
+#: 
+msgid "Unlimited"
+msgstr "Unlimited"
+
+#: 
+msgid "Get started"
+msgstr "Get started"
+
+#: 
+msgid "Signup for free account"
+msgstr "Signup for free account"
+
+#: 
+msgid "Firstname"
+msgstr "Firstname"
+
+#: 
+msgid "Lastname"
+msgstr "Lastname"
+
+#: 
+msgid "Email address"
+msgstr "Email address"
+
+#: 
+msgid "Next"
+msgstr "Next"
+
+#: 
+msgid "Signup"
+msgstr "Signup"
+
+#: 
+msgid "Step %s"
+msgstr "Step %s"
+
+#: 
+msgid "By creating an acount you agree to our <a href='%s'>terms of services</a>."
+msgstr "By creating an acount you agree to our <a href='%s'>terms of services</a>."
+
+#: 
+msgid "Already have an account?"
+msgstr "Already have an account?"
+

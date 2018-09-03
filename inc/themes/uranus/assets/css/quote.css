@@ -1,0 +1,14 @@
+#quote {
+  padding-bottom: 150px; }
+  #quote .link_group {
+    margin-top: 20px; }
+  #quote .white-button {
+    margin-right: 25px; }
+
+@media screen and (max-width: 991px) {
+  #quote {
+    padding-bottom: 60px; }
+    #quote .section-desc br {
+      display: none; }
+    #quote .white-button {
+      display: none; } }

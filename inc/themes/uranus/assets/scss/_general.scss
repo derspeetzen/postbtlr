@@ -1,0 +1,44 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    
+    font-size: 16px;
+    line-height: 20px;
+    color: $color-regular;
+
+    &.alternatebg {
+        background-color: #F5F5FA;
+    }
+
+    &.onprogress:after{
+        content: ""; 
+        
+        position: fixed; 
+        z-index: 999999;
+        top: 0; 
+        left: 0; 
+
+        width: 100%; 
+        height: 100%;
+        
+        background: rgba(255,255,255,0.95) url("../img/round-loading.svg") center no-repeat;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+@media screen and (min-width:992px) {
+    body.mainbg {
+        background-image: url("../img/body-bg.svg");
+        background-position: 50% 639px;
+        background-repeat: no-repeat;
+    }
+}

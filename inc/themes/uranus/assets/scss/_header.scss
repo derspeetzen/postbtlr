@@ -1,0 +1,147 @@
+header {
+    padding: 50px 0;
+
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+
+    .brand-logo {
+        position: relative;
+        z-index: 3;
+
+        a {
+            display: block;
+
+            img {
+                width: 125px;
+            }
+        }
+    }
+
+    nav {
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 16px;
+        }
+
+        a {
+            @include transition(all linear .3s);
+
+            &:hover,
+            &.active {
+                color: #33334F;
+            }
+        }
+    }
+
+    .language {
+        position: relative;
+        cursor: pointer;
+        z-index: 3;
+
+        .active {
+            color: #33334F;
+            display: block;
+            padding: 0 16px;
+        }
+
+        i {
+            line-height: 14px;
+            font-size: 14px;
+            color: $color-regular;
+            vertical-align: -1px;
+        }
+
+        .dropdown-list {
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 10px;
+
+            padding: 10px 0;
+            width: auto;
+            
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            
+            box-shadow: 0 1px 10px 0 rgba(212, 212, 233, 0.5);
+            display: none;
+            
+            &:after {
+                @include transform(rotate(45deg));
+
+                content: "";
+
+                position: absolute;
+                top: -5px;
+                right: 9px;
+
+                width: 10px;
+                height: 10px;
+                
+                background-color: #FFFFFF;
+                box-shadow: 0 1px 10px 0 rgba(212, 212, 233, 0.5);
+            }
+
+            &:before {
+                content: "";
+                top: 0px;
+                right: 6px;
+                z-index: 10;
+
+                position: absolute;
+                
+                width: 20px;
+                height: 10px;
+                
+                background-color: #FFFFFF;
+            }
+
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            a {
+                @include transition(all linear .3s);
+
+                display: block;
+                padding: 6px 16px;
+
+                font-size: 12px;
+                font-weight: bold;
+                
+                white-space: nowrap;
+
+                &:hover {
+                    color: #FFFFFF;
+                    background-color: $color-primary;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    header {
+        padding: 30px 0 50px 0;
+
+        nav { display: none; }
+        
+        .language {
+            .active {
+                padding: 0;
+            }
+
+            .dropdown-list {
+                right: -7px;
+            }
+        }
+    }
+}

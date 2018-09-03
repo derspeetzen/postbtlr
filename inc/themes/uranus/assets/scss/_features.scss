@@ -1,0 +1,96 @@
+#features {
+    .features_list {
+        margin-top: 85px;
+        display: flex;
+        justify-content: space-between;
+
+        .features {
+            padding-bottom: 66px;
+            width: 185px;
+
+            .circle {
+                position: relative;
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+                margin-right: 20px;
+
+                &.purple {
+                    background-color: #686EED;
+                    box-shadow: 0 4px 8px 0 rgba(104, 110, 237, 0.3);
+                }
+
+                &.blue {
+                    background-color: #0090FF;
+                    box-shadow: 0 4px 8px 0 rgba(0, 144, 255, 0.3);
+                }
+                
+                &.orange {
+                    background-color: #FC5B2A;
+                    box-shadow: 0 4px 8px 0 rgba(252, 91, 42, 0.3);
+                }
+                
+                &.green {
+                    background-color: #51DC55;
+                    box-shadow: 0 4px 8px 0 rgba(81, 220, 85, 0.3);
+                }
+                
+                &.red {
+                    background-color: #FB5064;
+                    box-shadow: 0 4px 8px 0 rgba(251, 80, 100, 0.3);
+                }
+
+                &.greenlight {
+                    background-color: #51DC9F;
+                    box-shadow: 0 4px 8px 0 rgba(81, 220, 159, 0.3);
+                }
+
+                &.aqua {
+                    background-color: #34B9EB;
+                    box-shadow: 0 4px 8px 0 rgba(52, 185, 235, 0.3);
+                }
+                
+                &.yellow {
+                    background-color: #FAD10A;
+                    box-shadow: 0 4px 8px 0 rgba(250, 209, 10, 0.3);
+                }
+
+                i {
+                    @include transform(translate(50%, -50%));
+
+                    position: absolute;
+                    top: 50%;
+                    right: 50%;
+                    
+                    font-size: 22px;
+                    color: #FFFFFF;
+                }
+            }
+
+            .title {
+                margin: 0;
+                width: 115px;
+
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    #features {
+        .features_list {
+            display: block;
+            margin-top: 20px;
+        }
+
+        .features_block {
+            .features {
+                margin: 0 auto;
+                padding-bottom: 20px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: Uranus Skin\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 
+msgid "Missing some of required data."
+msgstr "Es werden benötigte Daten vermisst."
+
+#: 
+msgid "Email is not valid."
+msgstr "E-Mail Adresse ist nicht gültig."
+
+#: 
+msgid "Invalid token"
+msgstr "Invalid token"
+
+#: 
+msgid "Account is not active"
+msgstr "Account ist nicht aktiv"
+
+#: 
+msgid "Password must be at least 6 character length!"
+msgstr "Das Passwort muss mindestens 6 Zeichen haben!"
+
+#: 
+msgid "Password confirmation didn't match!"
+msgstr "Deine Passwörter stimmen nicht überein!"
+
+#: 
+msgid "All fields are required!"
+msgstr "Bitte fülle alle Felder aus!"
+
+#: 
+msgid "Couldn't send recovery email. Please try again later."
+msgstr "Es ist ein Fehler aufgetreten."
+
+#: 
+msgid "We couldn't find your account"
+msgstr "Wir konnten deinen Account nicht finden"
+
+#: 
+msgid "Please include the email address."
+msgstr "Bitte trage deine E-Mail Adresse ein."
+
+#: 
+msgid "Please include a valid email address."
+msgstr "Bitte trage deine gültige E-Mail Adresse ein."
+
+#: 
+msgid "Email belongs to an account already."
+msgstr "Dieser Account existiert bereits."
+
+#: 
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: 
+msgid "All fields are required"
+msgstr "Alle Felder werden benötigt"
+
+#: 
+msgid "Email is not valid!"
+msgstr "E-Mail Adresse ist nicht gültig!"
+
+#: 
+msgid "Email is not available!"
+msgstr "E-Mail Adresse ist nicht verfügbar!"
+
+#: 
+msgid "Please verify the reCaptcha."
+msgstr "Bitte bestätige den reCaptcha."
+
+#: 
+msgid "Missing or invalid secret key for the reCaptcha."
+msgstr "Missing or invalid secret key for the reCaptcha."
+
+#: 
+msgid "Recaptcha is timedout or duplicate."
+msgstr "Recaptcha is timedout or duplicate."
+
+#: 
+msgid "Recaptcha error: "
+msgstr "Recaptcha error: "
+
+#: 
+msgid "Couldn't verify the recaptcha"
+msgstr "Couldn't verify the recaptcha"
+
+#: 
+msgid "Save time managing your Instagram accounts"
+msgstr "Spare Zeit und verwalte Deine Instagram Accounts"
+
+#: 
+msgid "A smarter way to auto post on Instagram"
+msgstr "Der beste Weg deine Instagram Posts zu planen"
+
+#: 
+msgid "Get Now"
+msgstr "JETZT KOSTENLOS TESTEN"
+
+#: 
+msgid "Demo Version"
+msgstr "Login"
+
+#: 
+msgid "Manage Your Accounts"
+msgstr "Verwalte alle deine Accounts"
+
+#: 
+msgid "The following features to help you save time"
+msgstr "Die Folgenden Features werden dir helfen Zeit zu sparen"
+
+#: 
+msgid "Get Started"
+msgstr "Jetzt loslegen"
+
+#: 
+msgid "Photo, Story, Video & Album"
+msgstr "Fotos, Storys, Videos & Alben"
+
+#: 
+msgid "Automatically post all content"
+msgstr "Automatisiere deinen Content"
+
+#: 
+msgid "Multi Instagram Accounts"
+msgstr "Alle deine Instagram Accounts"
+
+#: 
+msgid "Post to all of your Instagram accounts easily"
+msgstr "Poste ganz einfach auf verschiedenen Instagram Accounts"
+
+#: 
+msgid "Schedule Posts"
+msgstr "Plane Posts"
+
+#: 
+msgid "You don't need to worry about managment"
+msgstr "Plane alle deine Posts im voraus"
+
+#: 
+msgid "Spüre den Unterschied."
+msgstr "Make the difference."
+
+#: 
+msgid "Here are the features for you"
+msgstr "Das sind unsere Features für Dich"
+
+#: 
+msgid "Unique Design"
+msgstr "Content Verwaltung"
+
+#: 
+msgid "Secure Password hash"
+msgstr "Höchste Sicherheit"
+
+#: 
+msgid "Multi Accounts"
+msgstr "Alle deine Instagram Accounts an einem Ort"
+
+#: 
+msgid "Mobile Responsive"
+msgstr "Smartphone kompatibel"
+
+#: 
+msgid "Auto Post"
+msgstr "Automatische Beiträge"
+
+#: 
+msgid "Payment Gateways"
+msgstr "Kostengünstig"
+
+#: 
+msgid "Emoji Compatibility"
+msgstr "Große Emoji Auswahl"
+
+#: 
+msgid "Completed"
+msgstr "Veröffentlicht!"
+
+#: 
+msgid "Instagram Scheduler"
+msgstr "Instagram Planer"
+
+#: 
+msgid "Schedule your posts at a future date to save time"
+msgstr "Plane deine Beiträge für die Zukunft um Zeit zu sparen"
+
+#: 
+msgid "There's no need to spend all day on your account when you can use a tool that automatically post on Instagram."
+msgstr "Du musst nicht mehr den ganzen Tag an deinem Smartphone bleiben, um auf Instagram aktiv zu sein. POST BTLR postet deine Beiträge automatisch!"
+
+#: 
+msgid "%s has additional modules to automate some process."
+msgstr "%s has additional modules to automate some process."
+
+#: 
+msgid "Auto Follow"
+msgstr "Auto Follow"
+
+#: 
+msgid "Auto Unfollow"
+msgstr "Auto Unfollow"
+
+#: 
+msgid "Auto Like"
+msgstr "Auto Like"
+
+#: 
+msgid "Auto Comment"
+msgstr "Auto Comment"
+
+#: 
+msgid "Auto Direct Message"
+msgstr "Auto Direct Message"
+
+#: 
+msgid "Auto Repost"
+msgstr "Auto Repost"
+
+#: 
+msgid "Direct Message"
+msgstr "Direct Message"
+
+#: 
+msgid "Don't worry about managing accounts."
+msgstr "Mach dir keine Sorgen mehr um deine Instagram Beiträge."
+
+#: 
+msgid "Real-time posting may be the best way to use it, but <br> not everyone has the time to update in real time"
+msgstr "Spare Zeit indem du deine Post im voraus planst <br> damit Dir mehr Zeit für Dich bleibt!"
+
+#: 
+msgid "Login"
+msgstr "Login"
+
+#: 
+msgid "Sign in to your account"
+msgstr "Logge dich in deinen Account ein"
+
+#: 
+msgid "Login with Facebook"
+msgstr "Login mit Facebook"
+
+#: 
+msgid "Login credentials didn't match!"
+msgstr "Login credentials didn't match!"
+
+#: 
+msgid "E-mail adress"
+msgstr "E-Mail Adresse"
+
+#: 
+msgid "Password"
+msgstr "Passwort"
+
+#: 
+msgid "Remember me"
+msgstr "Erinnere dich an mich"
+
+#: 
+msgid "Forgot Password?"
+msgstr "Passwort vergessen?"
+
+#: 
+msgid "Need an account?"
+msgstr "Benötigst du einen Account?"
+
+#: 
+msgid "Sign up"
+msgstr "Registrieren"
+
+#: 
+msgid "Password Reset"
+msgstr "Passwort zurücksetzen"
+
+#: 
+msgid "New password"
+msgstr "Neues Passwort"
+
+#: 
+msgid "Confirm password"
+msgstr "Passwort bestätigen"
+
+#: 
+msgid "Reset Password"
+msgstr "Passwort zurücksetzen"
+
+#: 
+msgid "Success!"
+msgstr "Erfolgreich!"
+
+#: 
+msgid "You've successfully reset your password!"
+msgstr "Du hast dein Passwort erfolgreich geändert!"
+
+#: 
+msgid "Privacy Policy"
+msgstr "Impressum und Datenschutz"
+
+#: 
+msgid "Password Recovery"
+msgstr "Passwort zurücksetzen"
+
+#: 
+msgid "Your e-mail adress"
+msgstr "Deine E-Mail Adresse"
+
+#: 
+msgid "Submit"
+msgstr "Absenden"
+
+#: 
+msgid "Enter your registration email address to receive password reset instructions."
+msgstr "Tippe deine E-Mail Adresse ein, damit wir dein Passwort zurücksetzen können."
+
+#: 
+msgid "Email Sent!"
+msgstr "E-Mail gesendet!"
+
+#: 
+msgid "Password reset instruction sent to your email adress."
+msgstr "Du bekommst in den nächsten Minuten eine E-Mail mit der Anleitung, wie du dein Passwort zurücksetzt.."
+
+#: 
+msgid "Copyright %s."
+msgstr "Copyright %s."
+
+#: 
+msgid "All rights reserved."
+msgstr "Alle Rechte vorbehalten."
+
+#: 
+msgid "Terms of Services"
+msgstr "AGB"
+
+#: 
+msgid "ABOUT"
+msgstr "ÜBER"
+
+#: 
+msgid "FEATURES"
+msgstr "FEATURES"
+
+#: 
+msgid "PRICES"
+msgstr "PREISE"
+
+#: 
+msgid "Go to Account"
+msgstr "Zu deinem Account"
+
+#: 
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: 
+msgid "SIGN UP"
+msgstr "REGISTRIEREN"
+
+#: 
+msgid "Pricing"
+msgstr "Preise"
+
+#: 
+msgid "Pricing designed to fit your business"
+msgstr "Die Preise wurden speziell für deine Bedürfisse entwickelt!"
+
+#: 
+msgid "Most Popular"
+msgstr "Am beliebtesten"
+
+#: 
+msgid "Save %s when paid annualy"
+msgstr "Spare %s bei jährlicher Zahlung"
+
+#: 
+msgid "mon"
+msgstr "Monat"
+
+#: 
+msgid "Only 1 account"
+msgid_plural "Up to %s accounts"
+msgstr[0] "Nur 1 Account"
+msgstr[1] "Bis zu %s Accounts"
+
+#: 
+msgid "Unlimited accounts"
+msgstr "Unbegrenzte Accounts"
+
+#: 
+msgid "Zero accounts"
+msgstr "0 Accounts"
+
+#: 
+msgid "Post Types"
+msgstr "Beitrags Arten"
+
+#: 
+msgid "Photo"
+msgstr "Foto"
+
+#: 
+msgid "Video"
+msgstr "Video"
+
+#: 
+msgid "Story"
+msgstr "Story"
+
+#: 
+msgid "Photo+Video"
+msgstr "Fotos + Videos"
+
+#: 
+msgid "Photo only"
+msgstr "Nur Fotos"
+
+#: 
+msgid "Video only"
+msgstr "Nur Videos"
+
+#: 
+msgid "Album"
+msgstr "Alben"
+
+#: 
+msgid "Cloud Import"
+msgstr "Cloud Import"
+
+#: 
+msgid "Not available"
+msgstr "Nicht verfügbar"
+
+#: 
+msgid "Modules"
+msgstr "Module"
+
+#: 
+msgid "Spintax Support"
+msgstr "Spintax Support"
+
+#: 
+msgid "Storage"
+msgstr "Speicherplatz"
+
+#: 
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: 
+msgid "Get started"
+msgstr "Jetzt testen"
+
+#: 
+msgid "Signup for free account"
+msgstr "Jetzt kostenlos testen"
+
+#: 
+msgid "Firstname"
+msgstr "Vorname"
+
+#: 
+msgid "Lastname"
+msgstr "Nachname"
+
+#: 
+msgid "Email address"
+msgstr "E-Mail Adresse"
+
+#: 
+msgid "Next"
+msgstr "Weiter"
+
+#: 
+msgid "Signup"
+msgstr "Registrieren"
+
+#: 
+msgid "Step %s"
+msgstr "Schritt %s"
+
+#: 
+msgid "By creating an acount you agree to our <a href='%s'>terms of services</a>."
+msgstr "Bei der Anmeldung stimmst du unseren <a href='%s'>AGBs</a> zu."
+
+#: 
+msgid "Already have an account?"
+msgstr "Hast du bereits einen Account?"
+

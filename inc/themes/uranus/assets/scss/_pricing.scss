@@ -1,0 +1,230 @@
+#pricing {
+    .price_list {
+        padding-top: 150px;
+        padding-bottom: 175px;
+    }
+
+    .package {
+        position: relative;
+        min-width: 25%;
+        max-width: 340px;
+        padding: 50px;
+
+        text-align: center;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 10px 0 rgba(212, 212, 233, 0.5);
+
+        &:first-child { border-radius: 8px 0 0 8px; }
+        &:last-child { border-radius: 0 8px 8px 0; }
+
+        sup {
+            font-size: inherit;
+            top: 0;
+        }
+    }
+        
+    .badge {
+        @include transform(translateX(-50%));
+        position: absolute;
+        top: 0;
+        left: 50%;
+        
+        display: block;
+        padding: 11px 23px;
+
+        color: #FFFFFF;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        
+        background-color: #48C292;
+        border-radius: 0 0 15.5px 15.5px;
+    }
+
+    .package-title {
+        margin: 0 0 12px;
+
+        color: $color-primary;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 25px;
+    }
+
+    .annual-save {
+        margin: 0 0 12px;
+        height: 24px;
+
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .price {
+        margin-bottom: 20px;
+
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 700;
+        color: $color-heading;
+
+        span {
+            color: #727EA0;
+
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 20px;
+
+            white-space: nowrap;
+        }
+    }
+
+    .account-count {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .feature {
+        margin: 0 0 40px;
+        padding: 0;
+
+        font-size: 16px;
+        line-height: 30px;
+
+        list-style: none;
+
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .title {
+            color: $color-heading;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    }
+
+    .module {
+        display: block;
+        width: 30px;
+        height: 30px;
+        padding: 7px 6px 5px;
+        margin: 2px;
+
+        font-size: 14px;
+        line-height: 18px;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        border-radius: 5px;
+
+        &.disabled {
+            opacity: .3;
+            color: $color-regular !important;
+            background: #e0e0e0 !important;
+        }
+    }
+
+    .purple-button {
+        background-color: #33334F;
+        box-shadow: 0 4px 8px 0 rgba(51, 51, 79, 0.3);
+
+        padding: 18px 53px;
+
+        &:hover {
+            background-color: #3200C3;
+        }
+    }
+
+    .popular {
+        z-index: 2;
+
+        margin-top: -35px;
+        margin-bottom: -35px;
+        padding-top: 85px;
+
+        box-shadow: 0 1px 10px 0 rgba(212, 212, 233, 0.5);
+        border-radius: 8px;
+
+        .purple-button {
+            background-color: $color-primary;
+
+            &:hover {
+                background-color: darken($color-primary, 10%);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    #pricing {
+        .price_list {
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+
+        .package {
+            min-width: 0;
+            max-width: none;
+            width: 250px;
+
+            margin: 20px;
+            padding: 40px;
+            border-radius: 8px !important;
+        }
+
+        .badge {
+            padding: 5px 20px;
+            font-size: 10px;
+            line-height: 14px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .package-title {
+            font-size: 17px;
+            line-height: 21px;
+        }
+
+        .annual-save {
+            font-size: 10px;
+            line-height: 20px;
+        }
+
+        .price {
+            font-size: 40px;
+            span { font-size: 13px; }
+        }
+
+        .account-count {
+            font-size: 13px;
+            line-height: 25px;
+        }
+
+        .feature {
+            font-size: 13px;
+            line-height: 25px;
+
+            .title { font-size: 13px; }
+        }
+
+        .purple-button { font-size: 9px; }
+
+        .popular { 
+            margin: 20px;
+            padding-top: 40px;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    #pricing {
+        .package {
+            margin: 20px 0 0;
+            width: 100%;
+            max-width: 340px;
+
+            &:first-child { margin-top: 0; }
+        }
+    }
+}

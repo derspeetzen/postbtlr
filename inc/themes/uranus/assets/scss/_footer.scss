@@ -1,0 +1,67 @@
+footer {
+    border-top: 1px solid rgba(114, 126, 160, 0.3);
+    padding: 35px 0;
+
+    .brand_logo {
+        float: left;
+
+        a {
+            float: left;
+            margin-right: 15px;
+        }
+
+        p {
+            float: left;
+            margin: 0;
+
+            font-size: 14px;
+            line-height: 30px;
+        }
+    }
+
+    .links {
+        float: right;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;    
+        }
+
+        li {
+            @include transition(all linear .3s);
+            display: inline-block;
+            margin-left: 30px;
+            
+            font-size: 14px;
+            line-height: 30px;
+            font-weight: 800;
+
+            &:hover {
+                color: $color-heading;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:991px) {
+    footer {
+        padding: 20px 0;
+
+        .brand_logo {
+            float: none;
+
+            img { width: 70px; }
+
+            p {
+                font-size: 10px;
+                line-height: 21px;
+                float: right;
+            }
+        }
+        
+        .links {
+            display: none;
+        }
+    }
+}

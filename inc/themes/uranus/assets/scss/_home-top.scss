@@ -1,0 +1,183 @@
+#home-top {
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    .managing_accounts {
+        float: left;
+        padding: 125px 0;
+        width: 45%;
+    }
+
+    .section-title {
+        font-weight: 800;
+        line-height: 45px;
+    }
+
+    .link_group {
+        margin-top: 60px;
+        text-transform: uppercase;    
+    }
+
+    .white-button {
+        margin-right: 25px;
+    }
+
+    .bg_animation_section {
+        position: relative;
+        float: right;
+        height: 440px;
+        width: 55%;
+
+        background-image: url("../img/main_bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+
+        .oval_1,
+        .oval_2,
+        .oval_3,
+        .oval_4 {
+            position: absolute;
+            border-radius: 100%;
+            
+            &:after {
+                @include transform(scale(0));
+
+                content: "";
+
+                position: absolute;
+
+                border-radius: 100%;
+                opacity: 0.2;
+
+                animation-name: circleshadow;
+                animation-iteration-count: infinite;
+                animation-duration: 3s;
+            }   
+        }
+
+        .oval_1 {
+            top: 5%;
+            right: 12%;
+            height: 45px;
+            width: 45px;
+            background: linear-gradient(180deg, #FEB21D 0%, #F61D00 100%);
+
+            &:after {
+                right: -16px;
+                top: -16px;
+                height: 77px;
+                width: 77px;
+                background: linear-gradient(180deg, #FEB21D 0%, #F61D00 100%);
+                
+                animation-delay: 0s;
+            }
+        }
+
+        .oval_2 {
+            right: 0%;
+            top: 38%;
+            height: 60px;
+            width: 60px;
+            background: linear-gradient(0deg, #BB0AB0 0%, #F61D00 100%);
+
+            &:after {
+                right: -20px;
+                top: -20px;
+                height: 100px;
+                width: 100px;
+                background: linear-gradient(0deg, #BB0AB0 0%, #F61D00 100%);
+                animation-delay: 0.15s;
+            }
+        }
+
+        .oval_3 {
+            right: 6%;
+            bottom: 13%;
+            height: 45px;
+            width: 45px;
+            background: linear-gradient(180deg, #FEB21D 0%, #F61D00 100%);
+
+            &:after {
+                right: -16px;
+                top: -16px;
+                height: 77px;
+                width: 77px;
+                background: linear-gradient(180deg, #FEB21D 0%, #F61D00 100%);
+                animation-delay: 0.3s;
+            }
+        }
+
+        .oval_4 {
+            bottom: -14%;
+            left: 40%;
+            height: 45px;
+            width: 45px;
+            background: linear-gradient(0deg, #BB0AB0 0%, #F61D00 100%);
+
+            &:after {
+                right: -13px;
+                top: -13px;
+                height: 71px;
+                width: 70px;
+                background: linear-gradient(0deg, #BB0AB0 0%, #F61D00 100%);
+                animation-delay: 0.45s;
+            }
+        }
+
+        @keyframes circleshadow {
+            0% {
+                @include transform(scale(0.5));
+            }
+            
+            35% {
+                @include transform(scale(1));
+            }
+
+            70% {
+                @include transform(scale(0.5));
+            }
+        }
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #home-top {
+        .bg_animation_section {
+            background-size: contain;
+        }
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    #home-top {
+        padding: 0;
+
+        .managing_accounts {
+            padding: 0;
+            width: auto;
+            float: none;
+
+            text-align: center;
+            
+        }
+
+        .section-title {
+            line-height: 25px;
+        }
+
+        .link_group {
+            margin-top: 20px;
+        }
+        
+        .white-button {
+            display: none;
+        }
+        
+        .bg_animation_section {
+            display: none;
+        }
+
+    }
+}

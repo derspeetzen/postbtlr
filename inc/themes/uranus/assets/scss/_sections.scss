@@ -1,0 +1,46 @@
+.section-pretitle {
+    margin-bottom: 15px;
+
+    color: #3200C3;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 18px;
+    text-transform: uppercase;   
+}
+
+.section-title {
+    margin: 0 0 15px;
+    
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 50px;
+    color: $color-heading;
+}
+
+.section-desc {
+    margin: 15px 0;
+
+    font-size: 20px;
+    line-height: 32px;
+}
+
+@media screen and (max-width:991px) {
+    .section-pretitle {
+        margin-bottom: 10px;
+
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .section-title {
+        margin-bottom: 10px;
+
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .section-desc {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

@@ -1,0 +1,76 @@
+.clearfix { 
+    *zoom: 1; 
+
+    &:before,
+    &:after {
+        display: table; 
+        content: ""; 
+        line-height: 0;
+    }
+
+    &:after {
+        clear: both;
+    }
+}
+
+// Margin - Padding offsets
+$offset-sizes: 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100;
+$offset-directions: "top", "bottom", "left", "right";
+@each $size in $offset-sizes {
+    @each $dir in $offset-directions {
+        .m-#{$dir}-#{$size} {
+            margin-#{$dir}: #{$size}px !important;
+        }
+
+        .p-#{$dir}-#{$size} {
+            padding-#{$dir}: #{$size}px !important;
+        }
+    }
+
+    .m-#{$size} {
+        margin: #{$size}px !important;
+    }
+
+    .p-#{$size} {
+        padding: #{$size}px !important;
+    }
+}
+
+.pull-left { float: left !important; } 
+.pull-right{  float: right !important; }
+
+.block{ display: block !important; } 
+.inline-block{ display: inline-block !important; } 
+.none{ display: none !important; }
+
+.pos-r{ position: relative !important; } 
+.pos-a{ position: absolute !important; } 
+.pos-f{ position: fixed !important; } 
+.pos-s{ position: static !important; }
+
+.of-hidden{ overflow: hidden !important; }
+
+.text-c{ text-align: center !important; } 
+.text-l{ text-align: left !important; } 
+.text-r{ text-align: right !important; } 
+.text-j{ text-align: justify !important; }
+
+.tt-upper{ text-transform: uppercase !important; } 
+.tt-lower{ text-transform: lowercase !important; } 
+.tt-none{ text-transform: none !important; }
+
+.ellipsis {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+}
+
+.pe-none{ pointer-events: none !important; }
+.pe-all { pointer-events: all !important; }
+
+.wrapper {
+    max-width: 1260px;
+
+    margin: 0 auto;
+    padding: 0 30px;
+}
