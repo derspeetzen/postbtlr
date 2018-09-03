@@ -354,7 +354,7 @@ msgstr "PREISE"
 
 #: 
 msgid "Go to Account"
-msgstr "Zu deinem Account"
+msgstr "ZUM DASHBOARD"
 
 #: 
 msgid "LOGIN"
