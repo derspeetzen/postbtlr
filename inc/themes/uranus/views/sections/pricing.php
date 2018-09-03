@@ -205,15 +205,7 @@
                         </ul>
                     <?php endif ?>
 
-                    <ul class="feature">
-                        <li>
-                            <?php if ($p->get("settings.spintax")): ?>
-                                <?= __("Spintax Support") ?>
-                            <?php else: ?>
-                                <del><?= __("Spintax Support") ?></del>
-                            <?php endif ?>
-                        </li>
-                    </ul>
+                    
 
                     <ul class="feature">
                         <li class="title"><?= __("Storage") ?></li>
