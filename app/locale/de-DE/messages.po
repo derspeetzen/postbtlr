@@ -1126,7 +1126,7 @@ msgstr "Titel"
 
 #: 
 msgid "Enter caption title"
-msgstr "Bildunterschrift eingeben"
+msgstr "Titel eingeben"
 
 #: 
 msgid "Caption"
