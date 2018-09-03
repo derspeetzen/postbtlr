@@ -233,68 +233,7 @@
             </div>
         </section>
 
-        <section id="modules">
-            <div class="wrapper">
-                <div class="clearfix">
-                    <div class="details">
-                        <h2 class="section-title"><?= __("%s has additional modules to automate some process.", site_settings("site_name")) ?></h2>
-                        
-                        <p class="section-desc">
-                            <?= __("Auto Follow") ?>, 
-                            <?= __("Auto Unfollow") ?>, 
-                            <?= __("Auto Like") ?>, <br>
-                            <?= __("Auto Comment") ?>,
-                            <?= __("Auto Direct Message") ?>,
-                            <?= __("Auto Repost") ?>
-                        </p>
-                    </div>
-
-                    <div class="module_list inactive">
-                        <div class="module message">
-                            <div class="box_info">
-                                <i class="mdi">email</i>
-                                <p><?= __("Direct Message") ?></p>
-                            </div>
-                        </div>
-
-                        <div class="module like">
-                            <div class="box_info">
-                                <i class="mdi">favorite</i>
-                                <p><?= __("Auto Like") ?></p>
-                            </div>
-                        </div>
-
-                        <div class="module unfollow">
-                            <div class="box_info">
-                                <i class="mdi">person</i>
-                                <p><?= __("Auto Unfollow") ?></p>
-                            </div>
-                        </div>
-
-                        <div class="module follow">
-                            <div class="box_info">
-                                <i class="mdi">person_add</i>
-                                <p><?= __("Auto Follow") ?></p>
-                            </div>
-                        </div>
-
-                        <div class="module repost">
-                            <div class="box_info">
-                                <i class="mdi">refresh</i>
-                                <p><?= __("Auto Repost") ?></p>
-                            </div>
-                        </div>
-
-                        <div class="module comment">
-                            <div class="box_info">
-                                <i class="mdi">message</i>
-                                <p><?= __("Auto Comment") ?></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
 
         <?php include 'sections/pricing.php' ?>
     
