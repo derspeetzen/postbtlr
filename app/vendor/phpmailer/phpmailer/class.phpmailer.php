@@ -70,7 +70,7 @@ class PHPMailer
      * The From email address for the message.
      * @var string
      */
-    public $From = 'root@localhost';
+    public $From = 'no-reply@postbtlr.de';
 
     /**
      * The From name of the message.
